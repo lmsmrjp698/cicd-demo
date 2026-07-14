@@ -59,7 +59,7 @@
 
 <div class="container">
 
-    <h1>🎉 거제 야호!! 🎉</h1>
+    <h1>🎉 삼성중공업 거제 야호!! 🎉</h1>
 
     <h2>OpenShift 4.20 + Tekton + ArgoCD CI/CD Demo</h2>
 
