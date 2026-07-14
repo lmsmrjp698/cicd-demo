@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: ocp-cicd-appli-ui
+  name: ocp-cicd-appli-ui
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ocp-cicd-appli-ui
+  template:
+    metadata:
+      labels:
+        app: ocp-cicd-appli-ui
+    spec:
+      containers:
+        - image: image-registry.openshift-image-registry.svc:5000/pipelines-tutorial/ocp-cicd-appli-ui
+          imagePullPolicy: Always
+          name: ocp-cicd-appli-ui
+          ports:
+            - containerPort: 8080
+              protocol: TCP
