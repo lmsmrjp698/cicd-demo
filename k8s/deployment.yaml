@@ -15,7 +15,7 @@ spec:
         app: ocp-cicd-appli-ui
     spec:
       containers:
-        - image: image-registry.openshift-image-registry.svc:5000/pipelines-tutorial/ocp-cicd-appli-ui
+        - image: image-registry.openshift-image-registry.svc:5000/cicd-demo/ocp-cicd-appli-ui:latest
           imagePullPolicy: Always
           name: ocp-cicd-appli-ui
           ports:
