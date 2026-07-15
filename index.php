@@ -25,7 +25,7 @@
         }
 
         h1{
-            color:#d60087;
+            color:#0052CC;
             font-size:48px;
             margin-bottom:10px;
         }
